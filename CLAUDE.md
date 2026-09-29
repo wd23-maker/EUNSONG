@@ -3,7 +3,7 @@
 ## 네이버 검색 규칙
 
 - 네이버 검색은 NAVER API HUB(`https://naverapihub.apigw.ntruss.com`)로 호출한다.
-  - 예: 뉴스 `/search/v1/news`, 블로그 `/search/v1/blog`
+  - 예: 뉴스 `/search/v1/news`, 블로그 `/search/v1/blog`, 카페 `/search/v1/cafearticle`
 - 요청 헤더:
   - `X-NCP-APIGW-API-KEY-ID`: `$NAVER_CLIENT_ID`
   - `X-NCP-APIGW-API-KEY`: `$NAVER_CLIENT_SECRET`
